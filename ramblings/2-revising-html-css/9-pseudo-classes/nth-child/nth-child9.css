@@ -1,0 +1,9 @@
+body{
+  font-size:30px;
+  text-align: center;
+}
+
+article:only-child{
+  color:red;
+  background-color: yellow;
+}

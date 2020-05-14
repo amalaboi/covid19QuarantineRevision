@@ -1,0 +1,20 @@
+body{
+  font-size:30px;
+  text-align: center;
+}
+
+li:nth-child(3n+2){
+  color:red;
+  background-color: yellow;
+}
+
+li:nth-child(9n+3){
+  color:red;
+  background-color: orchid;
+}
+
+li:nth-child(2n+4){
+  color:red;
+  background-color: gray;
+}
+

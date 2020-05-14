@@ -1,0 +1,29 @@
+*{
+
+}
+
+.divbox{
+  display: inline-block;
+  width:150px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.divcolor1{
+  background-color: red;
+}
+.divcolor2{
+  background-color: blue;
+}
+.divcolor3{
+  background-color: yellow;
+}
+.divcolor4{
+  background-color: green;
+}
+
+div:hover{
+  /* background-color: white; */
+  opacity: 0.8;
+}

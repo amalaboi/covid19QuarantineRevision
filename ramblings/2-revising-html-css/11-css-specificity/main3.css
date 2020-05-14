@@ -1,0 +1,18 @@
+
+body{
+  font-size: 36px;
+  font-family: cursive;
+  /* margin: 0 auto;
+   */
+   text-align: center;
+   
+}
+
+.favourite{
+  color:red;
+}
+
+/* This will be the color */
+ul#summer-drinks li{
+  color:blue;
+}

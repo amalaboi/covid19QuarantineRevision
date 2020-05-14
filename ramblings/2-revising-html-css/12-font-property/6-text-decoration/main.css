@@ -1,0 +1,64 @@
+*{
+  background-color: #fff;
+  columns: #000000;
+  margin:0;
+  padding:0;
+}
+
+header{
+  /* border:1px solid skyblue; */
+  font-family: Lobster,cursive;
+  font-size: 3rem;
+  text-align: center;
+  
+}
+
+header a{
+  text-decoration:none;
+  text-shadow: 0px 1px 2px red;
+  /* padding:5px; */
+}
+
+a:hover{
+ 
+  text-decoration:underline;
+}
+
+p{
+  text-shadow: 0px 1px 2px red;
+  text-align: center;
+  margin:20px;
+}
+
+#container{
+  max-width:960px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#lobster{
+  
+  font-family: Lobster,cursive ;
+  font-size:2.5rem;
+  /* color:white; */
+  
+  
+}
+
+#roboto{
+  font-family: Roboto,sans-serif ;
+  font-size:2.5rem;
+  /* color:white; */
+}
+
+#lobster-two{
+  font-family: 'Lobster Two',cursive ;
+  font-size:2.5rem;
+  /* color:white; */
+}
+
+.cancelled{
+  /* text-decoration:line-through underline overline; */
+  text-decoration:line-through;
+  text-shadow: 0px 1px 2px black;
+}

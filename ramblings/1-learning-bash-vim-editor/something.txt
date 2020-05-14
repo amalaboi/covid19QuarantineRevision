@@ -1,0 +1,13 @@
+
+Hi there,
+Just testing vim and new file input.
+Nice but weird IDE. Looks great for the command prompt.
+
+Anyway, I have to quit now.
+
+
+Press i for Insert Mode in order to Edit file.
+Press Esc to leave Insert Mode.
+Use :x to save and quit.
+
+Cool..cool..cool

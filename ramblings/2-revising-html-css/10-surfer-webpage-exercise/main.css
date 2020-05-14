@@ -1,0 +1,42 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color: lightseagreen;
+  font-size: 30px;
+
+}
+
+header p{
+  background-color: black;
+  color: blanchedalmond;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 900;
+
+}
+
+.container{
+  width:960px;
+  height: 1500px;
+  background-color: lawngreen;
+  margin:0 auto;
+  padding:20px;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border: 10px ridge gold;
+  border-radius: 100%;
+  /* padding:20px; */
+}
+
+h2{
+  color:red;
+  margin:20px;
+  padding:20px;
+}

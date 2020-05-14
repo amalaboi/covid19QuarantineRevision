@@ -1,0 +1,23 @@
+h1{
+  color: red;
+  border: 1px solid black;
+  font-size: 36px;
+  font-family: cursive;
+  font-style: italic;
+}
+
+/* #emph wins because of his high specificity value of 100 so the color will be blue */
+/* #emph{
+  color:blue;
+} */
+
+.cowboy{
+  color:green;
+}
+
+/* .emphasize wins because it is the last rule. Both .cowboy and .emphasize have equal 
+specificity. Because the Browser runs from TOP to BOTTOM, it first runs .cowboy but then overrides
+with .emphasize. The only thing overridden in the example is the color:value declaration */
+.emphasize{
+  color:yellow;
+}

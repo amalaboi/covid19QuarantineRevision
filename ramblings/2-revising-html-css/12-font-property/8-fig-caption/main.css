@@ -1,0 +1,21 @@
+figure{
+  max-width: 509px;
+  /* height: 616px; */
+  border:1px solid black;
+  text-align: center;
+  margin:10% auto;
+}
+
+figcaption{
+  border:1px solid palevioletred;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+  color: steelblue;
+}
+.ad-head{
+  color:black;
+  font-size:3rem;
+  text-decoration: underline;
+  font-style:normal;
+}

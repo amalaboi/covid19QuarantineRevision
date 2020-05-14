@@ -1,0 +1,36 @@
+*{
+  background-color: #fff;
+  columns: #000000;
+}
+
+p{
+  text-shadow: 0px 1px 2px red;
+  text-align: center;
+}
+
+#container{
+  width:960px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#lobster{
+  
+  font-family: Lobster,cursive ;
+  font-size:2.5rem;
+  /* color:white; */
+  
+  
+}
+
+#roboto{
+  font-family: Roboto,sans-serif ;
+  font-size:2.5rem;
+  /* color:white; */
+}
+
+#lobster-two{
+  font-family: 'Lobster Two',cursive ;
+  font-size:2.5rem;
+  /* color:white; */
+}

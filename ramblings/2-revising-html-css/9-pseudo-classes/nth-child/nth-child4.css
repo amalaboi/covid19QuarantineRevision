@@ -1,0 +1,13 @@
+body{
+  font-size:30px;
+  text-align: center;
+}
+
+li:nth-child(even){
+  color:red;
+  background-color:yellow;
+}
+
+/* ul:first-child{
+  background-color: yellow;
+} */

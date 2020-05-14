@@ -1,0 +1,10 @@
+h1{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 4vw;
+}
+
+
+h1::first-letter{
+  font-size: 5vw;
+  color:red;
+}

@@ -1,0 +1,31 @@
+body{
+  text-align:center;
+}
+h1{
+  font-size: 50px;
+  
+}
+
+p{
+  font-size: 24px;
+}
+
+[contenteditable]{
+  border: 2px solid black;
+  color:red;
+}
+
+[src]{
+  border:2px dashed red;
+}
+
+[href]{
+  border:2px dashed greenyellow;
+  
+}
+
+[target=_blank]{
+  font-size:30px;
+  color:red;
+  border:2px solid rgb(49, 56, 38);
+}

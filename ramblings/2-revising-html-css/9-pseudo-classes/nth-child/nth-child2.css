@@ -1,0 +1,12 @@
+body{
+  font-size:30px;
+  text-align: center;
+}
+
+li:first-child{
+  color:red;
+}
+
+ul:first-child{
+  background-color: yellow;
+}

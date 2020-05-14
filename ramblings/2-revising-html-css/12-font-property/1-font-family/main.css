@@ -1,0 +1,15 @@
+h1{
+  font-family: serif;
+  font-size: 128px;
+  margin: 0;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+p::first-letter{
+  font-size:40px;
+  color:red;
+}

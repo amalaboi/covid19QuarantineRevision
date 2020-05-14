@@ -1,0 +1,10 @@
+h1{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3.5rem;
+}
+/* 1rem = 16px; or whatever px the default font size is */
+
+h1::first-letter{
+  font-size: 4rem;
+  color:red;
+}

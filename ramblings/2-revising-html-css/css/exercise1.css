@@ -1,0 +1,40 @@
+ul{
+  display: block;
+  margin: 0 auto;
+  width: 550px;
+  height: 50px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+ul li a{
+
+  font-size: 30px;
+  margin-right:10px;
+  
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+
+}
+
+/* Display Gallery window */
+.displayGallery{
+  /* display: block; */
+  /* display: block; */
+  margin: 0 auto;
+  width: 800px;
+  height:965px;
+  border:1px red dotted;
+}
+
+section #d1, section #d2, section #d3{
+  display:none;
+}
+
+section #d1:target,section #d2:target,section #d3:target{
+  display: block;
+}
