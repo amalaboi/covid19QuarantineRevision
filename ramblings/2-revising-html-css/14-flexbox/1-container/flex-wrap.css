@@ -1,0 +1,19 @@
+
+div{
+  width: 200px;
+  height: 100px;
+  background-color: thistle;
+  border: 1px solid red;
+  margin: 1em;
+}
+
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div:hover{
+  background-color: black;
+  border: 1px solid blue;
+  color: white;
+}
