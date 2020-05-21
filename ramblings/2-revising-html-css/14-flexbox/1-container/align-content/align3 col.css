@@ -20,3 +20,9 @@ div{
   margin: 1em;
   text-align: center;
 }
+
+div:hover{
+  background-color: salmon;
+  color:white;
+  border: 2px solid black;
+}

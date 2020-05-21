@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+
+  display: flex;
+  border: 2px solid red;
+  height: 600px;
+
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.hme{
+  height: 100px;
+}
+.this-align{
+  /* display: flex; THIS IS NOT NEEDED*/
+  align-self: stretch;
+}
+
+
+/* div/box creation */
+div{
+  width: 200px;
+  /* height: 100px; */
+  border: 2px solid blue;
+  background-color: darkgrey;
+  margin: 1em;
+  text-align: center;
+}

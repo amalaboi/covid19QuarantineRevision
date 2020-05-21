@@ -1,0 +1,36 @@
+html, body{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  display: flex;
+}
+
+div{
+  /* flex-basis declared instead of width */
+  /* Also note, flex-basis declared inside the flex item */
+  flex-basis: 400px;
+  height: 100px;
+  border: 2px solid red;
+  background-color: darkslategrey;
+}
+
+.flex1{
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.flex2{
+  flex-shrink: 8;
+  flex-grow: 8;
+}
+
+/* 
+
+The three div flex items each want to be 400px;
+If the flex container is greater than 1200px
+flex-grow kicks in
+
+If the flex container is lesser than 1200px
+flex-shrink kicks in
+
+*/

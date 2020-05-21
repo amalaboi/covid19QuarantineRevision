@@ -1,0 +1,46 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  height: 500px;
+  border: 2px solid red;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+div{
+  width: 100px;
+  height: 50px;
+  background-color: darkgrey;
+  border: 2px solid blue;
+  margin: 1em;
+  text-align: center;
+}
+
+section{
+  display: flex;
+  flex-flow: column wrap;
+  border: 1px solid black;
+
+}
+
+.order1{
+  order: 3;
+}
+.order2{
+  order: 5;
+}
+.order3{
+  order: 2;
+}
+.order4{
+  order: 1;
+}
+.order5{
+  order: 3;
+}
