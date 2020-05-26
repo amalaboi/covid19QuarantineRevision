@@ -1,0 +1,15 @@
+ul{
+  flex-flow: column wrap;
+}
+
+main{
+  width: 85%;
+}
+
+nav{
+  width: 15%;
+}
+
+body, main{
+  border: 2px solid blue;
+}

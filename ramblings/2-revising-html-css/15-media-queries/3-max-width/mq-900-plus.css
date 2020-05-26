@@ -1,0 +1,21 @@
+h1,h2{
+  color: red;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+
+/*                                                                       
+* Declaring media query inside CSS files:
+* 
+* @media (max-width:900px){
+*  Then, all the CSS rules declared above are place inside here. 
+*  note: once you use this method, no need to include media expressions
+*  inside the html link tag.
+* } */

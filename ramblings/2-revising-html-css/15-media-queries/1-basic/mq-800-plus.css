@@ -1,0 +1,18 @@
+p{
+  border: 2px dashed black;
+  color: steelblue;
+  font-size:1.8rem;
+}
+
+h1{
+  color: blue;
+  font-size:3.5rem;
+}
+
+
+.red-section{
+  display: none;
+}
+.blue-section{
+  display: block;
+}
