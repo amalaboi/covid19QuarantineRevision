@@ -1,0 +1,28 @@
+body{
+  width: 100%;
+  
+}
+
+.c1{
+  width:100%;
+  min-height: 600px;
+  /* font-size:30px; */
+}
+
+.c2, .c3{
+  width:50%;
+  min-height: 400px;
+  /* font-size:30px; */
+ }
+
+ .c4, .c5,.c6{
+  width:33.33%;
+  min-height: 300px;
+  /* font-size:30px; */
+ }
+
+ .c7{
+  width:100%;
+  min-height: 400px;
+  /* font-size:30px; */
+}

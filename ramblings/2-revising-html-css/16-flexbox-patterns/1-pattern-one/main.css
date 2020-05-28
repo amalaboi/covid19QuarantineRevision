@@ -1,0 +1,21 @@
+html, body, div{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding: 0;
+  border: 3px solid red;
+  margin: 0 auto;
+  /* margin-right: auto;
+  margin-left: auto; */
+}
+
+.c1, .c2, .c3, .c4, .c5{
+  width: 100%;
+  min-height: 150px;
+  /* border: 2px solid blue; */
+
+}

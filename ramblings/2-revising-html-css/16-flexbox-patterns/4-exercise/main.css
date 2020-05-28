@@ -1,0 +1,88 @@
+html, body, div{
+  box-sizing: border-box;
+  font-family: 'Paytone One', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  color: white;
+}
+
+body{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding: 0;
+  /* background-color: gray; */
+  /* position: relative; */
+  /* border: 3px solid red; */
+  margin: 0 auto;
+}
+
+
+
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7{
+  width: 100%;
+  min-height: 250px;
+  /* border: 2px solid blue; */
+
+}
+
+.c1{
+  background-image: url('images/anise-aroma-art-bazaar-277253.jpg');
+  background-size: cover;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+.c1>h1{
+  position: absolute;
+  top:0;
+  /* left:0px; */
+  font-family: 'Paytone One', sans-serif;
+  background-color: rgba(0,0,0, 0.5);
+}
+
+h1{
+  font-family: 'Paytone One', sans-serif;
+  background-color: rgba(0,0,0, 0.1);
+}
+
+.c2{
+  background-image: url('images/burrito-chicken-delicious-dinner-461198.jpg');
+  background-size: cover;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+.c3{
+  background-image: url('images/selective-focus-photography-of-pasta-with-tomato-and-basil-1279330.jpg');
+  background-size: cover;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+.c4{
+  background-image: url('images/close-up-cold-color-drop-372882.jpg');
+  background-size: cover;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+.c5{
+  background-image: url('images/bread-food-sandwich-wood-62097.jpg');
+  background-size: cover;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+.c6{
+  background-image: url('images/cooked-foods-750073.jpg');
+  background-size: cover;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+.c7{
+  background-image: url('images/baked-pepperoni-pizza-774487.jpg');
+  background-size: cover;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
