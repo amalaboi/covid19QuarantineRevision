@@ -1,0 +1,22 @@
+
+div:first-child{
+  background-color: rosybrown;
+}
+div:nth-child(2){
+  background-color: royalblue;
+}
+div:nth-child(3){
+  background-color: salmon;
+}
+div:nth-child(4){
+  background-color: sandybrown;
+}
+div:nth-child(5){
+  background-color: slateblue;
+}
+div:nth-child(6){
+  background-color: rebeccapurple;
+}
+div:nth-child(7){
+  background-color: sienna;
+}

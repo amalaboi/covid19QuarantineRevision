@@ -1,0 +1,23 @@
+html,body,header,aside,article{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+}
+
+header,aside,article,footer{
+  width: 100%;
+  min-height: 50px;
+  /* border: 2px solid red; */
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+

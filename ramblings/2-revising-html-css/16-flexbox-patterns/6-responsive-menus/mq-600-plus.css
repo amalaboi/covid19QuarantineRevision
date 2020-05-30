@@ -1,0 +1,12 @@
+/* The ul is the flex container. Treat as such */
+ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  /* padding: 5px; */
+}
+
+/* the anchor tag is a flex item inside the ul flex container/parent */
+a{
+  padding: 1em;
+}

@@ -1,0 +1,20 @@
+ul{
+  list-style: none;
+  background-color: deepskyblue;
+}
+
+a{
+  text-decoration: none;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid rgb(97, 208, 245);
+}
+
+a:hover{
+  background-color: royalblue;
+}
+
+li:last-child{
+  border-bottom: none;
+}
