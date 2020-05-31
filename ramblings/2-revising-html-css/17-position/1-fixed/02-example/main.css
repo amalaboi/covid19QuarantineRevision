@@ -1,0 +1,28 @@
+html,body,div{
+  margin: 0px;
+  padding: 0px;
+  box-sizing:border-box;
+}
+
+div{
+  border-radius: 5px;
+}
+
+
+#box-one{
+ position: fixed;
+ top:10px;
+ left: 10px;
+  /* format */
+  width:100px;
+  height: 100px;
+  background-color: #547980;
+  
+}
+#box-two{
+  width: 80%;
+  margin: 0 auto;
+  height: 1500px;
+  border: 5px dashed red;
+  background-color: #45ADA8;
+}

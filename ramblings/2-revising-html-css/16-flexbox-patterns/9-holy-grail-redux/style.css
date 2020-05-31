@@ -1,0 +1,7 @@
+header,nav,aside,article,footer{
+  /* width: 100%; */
+  border: 2px solid black;
+  padding: 1em 0; 
+  background-color: #ffeebb;
+  text-align: center;
+}

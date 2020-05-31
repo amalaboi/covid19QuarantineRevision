@@ -1,0 +1,18 @@
+*{
+  border: 2px double  red;
+  margin:5px;
+}
+
+div{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color:#fff;
+}
+
+#one{
+  position: relative;
+  top:20px;
+  left:20px;
+  background-color: green;
+}

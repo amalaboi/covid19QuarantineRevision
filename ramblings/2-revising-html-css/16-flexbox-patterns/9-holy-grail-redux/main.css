@@ -1,0 +1,6 @@
+html,body,header,div,nav,aside,article,footer{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  box-sizing: border-box;
+}

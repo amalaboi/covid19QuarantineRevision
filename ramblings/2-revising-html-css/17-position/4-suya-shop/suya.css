@@ -1,0 +1,44 @@
+html,body,nav,main,p{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+html{
+  margin: 15px;
+}
+
+body{
+  position: relative;
+  border: 4px solid black;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+nav{
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 150px;
+  background-color: sandybrown;
+}
+
+main{
+  margin-left: 150px;
+  padding-left: 20px;
+  border-left: 1px dashed gray;
+  
+}
+
+p{
+  margin-bottom: 15px;
+  padding: 5px;
+  font-size: 1.3rem;
+}
+
+ul>li{
+  font-size: 1.3rem;
+}
+
+li:hover{
+  background-color: salmon;
+}
