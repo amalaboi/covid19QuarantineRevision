@@ -1,0 +1,22 @@
+div,img{
+  border: 2px solid red;
+  margin: 20px;
+  overflow: auto;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+#float-right{
+  float: right;
+}
+
+#float-left{
+  float: left;
+}
+
+div>p{
+  padding:20px;
+}

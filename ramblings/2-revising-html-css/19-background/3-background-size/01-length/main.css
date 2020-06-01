@@ -1,0 +1,14 @@
+body{
+  background-image:url('../../../img/Puppy_on_Halong_Bay.jpg');
+  background-repeat: repeat-y;
+  /* background-size: <length>; */
+  /* background-size: 500px; */
+
+  /* background-size: <x y>; */
+  background-size: 900px 200px;
+
+  /* background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: cover; */
+  /* background-size: 100vh; */
+}
