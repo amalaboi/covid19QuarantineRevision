@@ -1,0 +1,9 @@
+div{
+  width: 500px;
+  height: 500px;
+  border: 20px ridge goldenrod;
+  margin: 0 auto;
+  background-image: url('../../../puppy.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,6 @@
+body{
+  background-image: url('../../../puppy.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px dashed hotpink;
+}
