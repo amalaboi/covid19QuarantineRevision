@@ -1,0 +1,92 @@
+html,body,section,main,h1,nav,ul,li{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 1.2rem;
+  background-image: url('img/fog.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed; 
+  background-size: cover;
+
+}
+
+/* header section */
+header{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  /* align-items: center; */
+  /* border: 10px solid red; */
+}
+
+h1{
+  font-size: 4.8rem;
+  color: #094962;
+  text-align: center;
+  /* border: 10px solid blue; */
+}
+
+nav{
+  width: 100%;
+  /* margin:2rem auto; */
+  /* text-align: center; */
+  /* border: 10px solid green; */
+}
+ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none;
+  /* border: 10px solid orangered; */
+}
+nav > ul>li{
+  /* display: inline-block; */
+  border: 2px double black;
+  padding: 5px 15px;
+  border-radius: 30px;
+  margin: 1rem;  
+  /* border: 10px solid hotpink; */
+}
+
+li:hover{
+  border: 2px double red;
+  background-color: rgb(184, 172, 172);
+  color: red;
+}
+
+
+
+
+/* end: header section */
+
+
+main{
+  margin: 2rem;
+}
+
+
+section{
+  height:25rem;
+  text-align: center;
+  /* margin: 2rem; */
+  opacity: .8;
+}
+
+#s1{
+  background-color: #094562; 
+}
+#s2{
+  background-color: #496812;
+}
+#s3{
+  background-color: #584420;
+}
+#s4{
+  background-color: #651456;
+}

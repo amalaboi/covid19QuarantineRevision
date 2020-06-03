@@ -1,0 +1,57 @@
+html,body,section,main,h1,nav,ul,li{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 1.6rem;
+  background-image: url('img/fog.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+h1{
+  font-size: 4.8rem;
+  color: #094962;
+  text-align: center;
+}
+
+nav{
+  width: 60%;
+  margin:2rem auto;
+  text-align: center;
+}
+nav > ul>li{
+  display: inline-block;
+  margin: 1.2rem;  
+}
+
+li:hover{
+  color: red;
+}
+
+
+
+section{
+  height:25rem;
+  text-align: center;
+  margin: 2rem;
+  opacity: .8;
+}
+
+#s1{
+  background-color: #094562; 
+}
+#s2{
+  background-color: #496812;
+}
+#s3{
+  background-color: #584420;
+}
+#s4{
+  background-color: #651456;
+}
