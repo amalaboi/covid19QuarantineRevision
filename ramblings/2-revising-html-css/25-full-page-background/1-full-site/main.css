@@ -1,0 +1,106 @@
+/* *{
+  border: 2px solid hotpink;
+} */
+html,body,div,section,h1,h2,h3,button,header{
+  margin: 0px;
+  padding: 0px;
+  /* border: none; */
+  box-sizing: border-box;
+}
+html{
+  font-family: 'Cantarell', sans-serif;
+  color: whitesmoke;
+}
+
+/* body{
+  position: relative;
+} */
+
+header{
+  width: 100%;
+  height: 2.7rem;
+  background-color: rgba(0,0,0,0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div, header nav{
+  width: 10rem;
+  height: 80%;
+  margin: 0px 1rem;
+  background-color: red;
+  /* border: 2px solid white; */
+}
+
+#idx-atf{
+  /* width: 100vw; */
+  height: 100vh;
+  /* border: 20px solid red; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  /* Background images formatting */
+  background-color: rgb(90, 90, 90);
+  background-image: url('img/background-photo-mobile-devices.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#idx-atf>div{
+  height: 90vh;
+}
+
+.idx-center-spacebetween{
+  /* border: 20px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.idx-center-center{
+  /* border: 20px solid yellow; */
+  /* color: white; */
+  display: flex;
+  /* flex-direction: column; */
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 1.9rem;
+  font-weight: 400;
+  /* font-weight: 400; is the default or normal for font weight */
+  text-align: center;
+}
+h2{
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+h3{
+  font-size: 1.4rem;
+  font-weight: 400;
+  /* margin-top: .6rem; */
+  line-height: 1.2;
+  text-align: center;
+}
+button{
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: transparent;
+  color: rgb(202,250,234);
+  /* color:inherit; */
+  border: 1px solid rgb(202,250,234);
+  border-radius: 5px;
+  padding: .7rem 1.2rem;
+  cursor: pointer;
+  /* text-align: center; */
+}

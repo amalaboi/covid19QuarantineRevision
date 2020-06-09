@@ -1,0 +1,26 @@
+html,body,i,p{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(93, 163, 23);
+  border: 2px solid red;
+}
+
+
+p{
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin-left: 5px;
+}
+
+p:hover, i:hover{
+  cursor: pointer;
+}
