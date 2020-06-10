@@ -22,3 +22,61 @@ h3{
 .idx-center-center{
   margin-bottom: 3rem;
 }
+
+/*  */
+/* 
+ */
+ header{
+   justify-content: space-between;
+}
+
+ header div, header nav{
+  width: 22rem;
+  /* height: 80%; */
+  margin: 0px 1rem;
+  /* display: flex;
+  align-items: center; */
+  /* background-color: red; */
+  /* border: 2px solid white; */
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 1rem; */
+}
+header div a{
+  justify-content: flex-start;
+}
+
+header nav .idx-header-svg{
+  padding: 0 1rem;
+  /* border: 2px solid white; */
+}
+
+header nav .idx-header-svg:hover{
+  background-color: dimgray;
+  border-radius: 5px;
+}
+
+
+.idx-header-svg{
+  display: block;
+  width: 30px;
+  height: 100%;
+  /* fill: white; */
+  fill: currentColor;
+  /* border: 1px solid hotpink; */
+}
+
+.idx-header-svg:hover{
+  /* fill: #ff0000; */
+  fill: #9dbb88;
+  cursor: pointer;
+}
+
+/* end Header section */
+
+footer nav{
+  display: none;
+}

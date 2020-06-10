@@ -1,7 +1,7 @@
 /* *{
   border: 2px solid hotpink;
 } */
-html,body,div,section,h1,h2,h3,button,header{
+html,body,div,section,h1,h2,h3,button,header,a{
   margin: 0px;
   padding: 0px;
   /* border: none; */
@@ -12,10 +12,7 @@ html{
   color: whitesmoke;
 }
 
-/* body{
-  position: relative;
-} */
-
+/* header section */
 header{
   width: 100%;
   height: 2.7rem;
@@ -24,17 +21,52 @@ header{
   top: 0;
   left: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
+
 header div, header nav{
-  width: 10rem;
+  width: 100%;
   height: 80%;
-  margin: 0px 1rem;
-  background-color: red;
-  /* border: 2px solid white; */
+  /* margin: 0px 1rem; */
+  display: flex;
+  align-items: center;
+ /* border: 2px solid white; */
 }
+
+header nav{
+  display: none;
+}
+
+.idx-header-svg{
+  display: none;
+}
+
+header div a{
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid hotpink; */
+}
+
+header div a:hover{
+  color: #9dbb88;
+}
+
+header div a h1{
+  margin-left: .5rem;
+}
+
+header div a h1{
+  font-size: 1rem;
+  /* border: 2px solid hotpink; */
+}
+
+/* end Header section */ 
 
 #idx-atf{
   /* width: 100vw; */
@@ -54,7 +86,7 @@ header div, header nav{
 }
 
 #idx-atf>div{
-  height: 90vh;
+  height: 70vh;
 }
 
 .idx-center-spacebetween{
@@ -103,4 +135,45 @@ button{
   padding: .7rem 1.2rem;
   cursor: pointer;
   /* text-align: center; */
+}
+
+footer{
+  display: flex;
+  flex-flow: column nowrap;
+  /* width: 100%;
+  height: 20rem; */
+  /* border: 2px solid red; */
+  background-color: deepskyblue;
+  font-size: 1.5rem;
+}
+
+footer nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer nav a{
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+  padding-left: 3rem;
+  border-top: 1px solid rgba(255, 255, 255,0.3);
+  border-bottom: 1px solid rgba(0, 0, 0,0.1);
+  /* border: 2px solid hotpink; */
+}
+
+footer nav a:last-child{
+  border-bottom: none;
+}
+
+footer nav a svg{
+  fill: currentColor;
+  width: 1.9em;
+  height: 1.9em;
+  padding-right: 1.7rem;
+}
+
+footer nav a:hover{
+  background-color: royalblue;
 }
