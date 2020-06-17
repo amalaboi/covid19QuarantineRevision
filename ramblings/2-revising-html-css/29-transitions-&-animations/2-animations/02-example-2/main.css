@@ -1,0 +1,51 @@
+html,body,div,h1{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 1rem;
+  color: white;
+}
+
+#atf{
+  height: 100vh;
+  background-color: red;
+  border: 5px solid black;
+  /* display: flex */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zoom-text{
+  animation-name: text-zoom;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  /* animation-delay: 300ms;  */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /* animation-fill-mode: forwards; */
+  animation-play-state: running;
+}
+
+@keyframes text-zoom{
+  0%{
+    font-size: 2rem;
+    /* transform: rotate(0deg); */
+  }
+  /* 50%{
+    font-size: 4rem;
+    transform: rotate(180deg);
+  } */
+  100%{
+    font-size: 6rem;
+    /* transform: rotate(360deg); */
+  }
+}
+
+.zoom-text:hover{
+  cursor: pointer;
+  animation-play-state: paused;
+}

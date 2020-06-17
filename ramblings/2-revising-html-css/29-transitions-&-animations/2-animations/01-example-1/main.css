@@ -1,0 +1,89 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.circle{
+  width: 15rem;
+  height: 15rem;
+  border: 5px solid black;
+  border-radius: 50%;
+  background-color: rgb(245, 145, 127);
+}
+
+.circle-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-circle{
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: white;
+}
+.smallest-circle{
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: black;
+  margin: 3px;
+}
+
+.circle-anim{
+  position: relative;
+  top:30%;
+  left: 0;
+
+  /* animation */
+  animation-name: circleMov;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  /* animation-delay: 300ms;  */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /* animation-fill-mode: forwards; */
+  animation-play-state: running;
+
+}
+
+@keyframes circleMov{
+  0%{
+    left:0;
+    transform: rotate(0deg);
+  }
+  100%{
+    left:80vw;
+    background-color: red;
+    transform: rotate(360deg);
+  }
+}
+
+.transition{
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+}
+
+.circle-anim:hover > div{
+  background-color: yellow;
+}
+
+
+
+.circle-anim:hover{
+  cursor: pointer;
+  /* background-color: black; */
+  animation-play-state: paused;
+}
