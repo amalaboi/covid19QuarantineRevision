@@ -1,0 +1,60 @@
+html,body,div{
+  margin: 0;
+  padding: 0;
+}
+
+/* html{
+  font-size: 1vw;
+  color: #86969c;
+
+} */
+
+#atf{
+  height: 100vh;
+  /*  */
+  display: flex;
+  /* flex-flow: column wrap; */
+  justify-content: center;
+  align-items: center;
+}
+
+.centerCircle{
+  width: 100px;
+  height: 100px;
+  border: 1px solid #d7dbdd;
+  border-radius: 100%;
+  box-shadow:
+    0 2px 1px rgba(0, 0, 0, 0.05),
+    0 2px 3px rgba(0, 0, 0, 0.05),
+    0 4px 8px rgba(0, 0, 0, 0.05);
+
+
+  display: flex;
+  /* flex-flow: column wrap; */
+  justify-content: center;
+  align-items: center;
+
+}
+.icon{
+  /* padding: 10%; */
+  font-size: 3rem;
+  /* color: #d7dbdd; */
+  color: #bcd2da;
+}
+
+.icon-rotate{
+  animation-name: icon-r;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  /* animation-direction: alternate; */
+  animation-iteration-count: infinite;
+} 
+
+@keyframes icon-r{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}

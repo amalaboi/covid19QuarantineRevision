@@ -1,0 +1,82 @@
+html,body,div{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html{
+  color: #57727C;
+}
+
+body{
+  height: 100vh;
+  border: 2px solid currentColor;
+  /* flex */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#outer-border{
+  min-width: 60%;
+  height: 500px;
+  border: 2px solid currentColor;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#container{
+  width: 90%;
+  height: 500px;
+  padding: 10px;
+  /* border: 2px solid blueviolet; */
+}
+
+.flex-row{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.flex-row-reverse{
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  min-width: inherit;
+  height: 9rem;
+  margin: 10px;
+  /* border: 2px solid black; */
+  border-bottom: 1px solid #D7DBDD;
+}
+
+div:nth-child(3){
+  border-bottom: none;
+}
+
+.description{
+  /* padding: 3rem; */
+  padding: 0 2rem;
+  font-size: 1.3rem;
+  width: 70%;
+  /* border: 2px solid hotpink; */
+}
+
+.icon{
+  font-size: 5rem;
+  padding: 0.3rem;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+

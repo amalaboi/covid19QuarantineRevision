@@ -1,0 +1,81 @@
+html,body,div,h1,p{
+  margin:0;
+  padding: 0;
+  border:0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 1vw;
+  color: #86969c;
+
+}
+
+#atf{
+  height: 100vh;
+  border: 2px solid red;
+
+  /* flex */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container{
+  text-align: center;
+  /* border: 2px solid hotpink; */
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.icon{
+  /* width: 200px;
+  height: 200px; */
+  font-size: 8rem;
+  color: #BCD2DA;
+  /* border: 2px solid hotpink; */
+}
+
+.icon-rotate{
+  animation-name: icon-r;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate; */
+  /* animation-play-state: running; */
+  /* border: 2px solid hotpink; */
+}
+
+@keyframes icon-r{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+#container h1{
+  font-size: 5rem;
+}
+#container p{
+  font-size: 2.7rem;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.blue-btn{
+  width: 200px;
+  height: 50px;
+  font-size: 1.4rem;
+  color: white;
+  background-color: #16A2D7;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
