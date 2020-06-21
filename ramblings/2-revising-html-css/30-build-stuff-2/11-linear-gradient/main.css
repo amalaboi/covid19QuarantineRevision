@@ -1,0 +1,30 @@
+html,body,div,i,button{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: linear-gradient(to right,red,white); */
+  background-image: linear-gradient(180deg,red,white);
+}
+
+.btn{
+  width: 40rem;
+  height: 5rem;
+  font-size: 2rem;
+  background-image: linear-gradient(#72c41f,#5c9e19);
+  cursor: pointer;
+  color: white;
+
+  /* border-radius: 10px; */
+}
+
+.icon{
+  /* fill: blue; */
+  color: white;
+}

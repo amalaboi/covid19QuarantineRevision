@@ -1,0 +1,59 @@
+html,body,section,div,h1,h2,audio,img{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  /* border: 2px solid red; */
+  /*  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#artist-profile{
+  min-width: 30vw;
+  min-height: 40vh ;
+  background-image: linear-gradient(darkgray,black);
+  display: flex;
+  /* flex-direction: column; */
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#profile h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+#profile h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+#profile-text{
+  margin: 0 1rem;
+  /* border: 2px solid hotpink; */
+}
+
+#profile{
+  min-width: 80%;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.3rem 2rem;
+  padding: 0 2rem;
+  color: antiquewhite;
+  /* border: 2px solid red; */
+}
+#profile img{
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}

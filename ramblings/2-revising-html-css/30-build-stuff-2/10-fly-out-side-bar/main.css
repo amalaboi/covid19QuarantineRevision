@@ -1,0 +1,56 @@
+html,body,div{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+
+label{
+  /* margin: 20px; */
+  padding: 10px 5px;
+  border: 2px solid blue;
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 1;
+}
+
+label:hover{
+  cursor: pointer;
+  background-color: black;
+  border-color: red;
+  color: white;
+}
+
+#sideBar{
+  height: 30rem;
+  width: 30rem;
+  border: 3px solid royalblue;
+  position: fixed;
+  left: -50rem;
+  background-color: lightblue;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+
+}
+
+ol{
+  padding-top: 5rem;
+  /* text-align: center; */
+
+}
+
+ol li:hover{
+  cursor: pointer;
+  background-color:royalblue;
+  color: white;
+}
+
+input[type="checkbox"]:checked ~ #sideBar{
+  left: 0;
+}

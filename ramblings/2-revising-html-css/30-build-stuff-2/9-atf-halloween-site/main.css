@@ -1,0 +1,97 @@
+html, body, section, header, div, nav, h1, h2{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+html{
+  color: white;
+}
+
+/* header starts here */
+header{
+  width: 100%;
+  min-height: 10vh;
+  border: 4px solid hotpink;
+  /* background-color:  hotpink; */
+  background-color:  rgba(255,105,180,.5);
+
+  /* background-attachment: fixed; */
+  position: fixed;
+  top:0;
+  left:0;
+  /* flex */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+
+
+}
+
+/* box creation */
+header div, header nav{
+  width: 150px;
+  height: 50px;
+  /* margin: 0 20px; */
+  border: 2px solid red;
+  background-color: deeppink;
+  /* flex */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* header ends here */
+
+
+/* atf section begins */
+#atf{
+  /* width: 100vw; */
+  height: 100vh;
+  border: 5px solid hotpink;
+  background-color: gray;
+  background-image: url('img/bird.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* layout:flexbox */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#h1-box{
+  min-width: auto;
+  height: auto;
+  border: 2px solid hotpink;
+}
+
+#h1-box h1{
+  font-size: 3rem;
+  border: 2px solid red;
+}
+
+/* atf section ends */
+
+
+
+
+#btf{
+  min-height: 30vh;
+  border: 2px solid red;
+  /* background-color: black; */
+
+}
+
+h2{
+  font-family: 'Nosifer', cursive;
+  font-size: 8rem;
+  color: red;
+  text-align: center;
+}
