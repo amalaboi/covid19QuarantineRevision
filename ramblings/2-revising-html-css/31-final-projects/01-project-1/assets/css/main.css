@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1vw;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-width {
+    width: 80vw;
+}
+
+header {
+    /* arrange content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* format*/
+    /* height: 5rem; */
+    margin-top: 1rem;
+    padding: 3em;
+
+    /* border: 1px solid red; */
+}
+
+h1 {
+    color: #484848;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 25px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    background-color: #f6f6f6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    color: #484848;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* arrange content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav div {
+    width: 25%;
+    border-bottom: 2px solid darkgray;
+}
+
+/* Hero Section */
+#hero-section{
+    width: 100%;
+    height: 85vh;
+    /* border: 2px solid blue; */
+    background-image: url('../images/fam_blur.jpg');
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    background-size: cover;
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-container{
+    /* width: 50%;
+    height: 40%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: darkgray; */
+}
+
+h2, h3 {
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Alice', serif;
+    font-size: 55px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 29px;
+}
+
+h3 {
+    font-family: 'Open sans', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    max-width: 492px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.red-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 38px;
+    background-color: #f00;
+    font-family: 'Open sans', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* main */
+main{
+    /* border: 2px solid red; */
+    margin: 2rem;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+article h1, article h2 {
+    font-family: 'Alice', sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+    /*color: #484848;*/
+    padding: .3em 0;
+}
+
+article h2 {
+    color: #484848;
+}
+
+p{
+    font-family: 'Open sans', sans-serif;
+    font-size: 15px;
+    color: #8e8e8e;
+    /*max-width: 750px;*/
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+
+
+/* footer */
+footer{
+    /* arrange content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* format*/
+    /* height: 5rem; */
+    margin-top: 1rem;
+    padding: 3em;
+    
+    border-top: 2px solid darkslategray;
+    /* border: 2px solid salmon; */
+
+}
+
+footer div p{
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
