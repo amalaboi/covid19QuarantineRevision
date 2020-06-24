@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Holy Grail Layout</title>
+
+
+<style>
+
+html,body,header,article,aside,footer{
+margin:0;
+border:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+
+body{
+
+display:flex;
+flex-flow:wrap;
+margin:0 auto;
+
+}
+
+
+header,footer,article,aside{
+
+width:100%;
+border:2px solid red;
+text-align:center;
+
+}
+
+header,footer,aside{
+min-height:50px;
+
+}
+
+
+
+@media(min-width:600px){
+
+
+aside{
+
+width:50%;
+}
+
+}
+
+
+@media(min-width:800px){
+
+
+aside{
+
+width:15%;
+
+}
+
+article{
+width:70%;
+
+}
+
+.mag1{
+
+order:1;
+
+}
+
+.mag2{
+
+order:2;
+
+}
+
+.mag3{
+
+order:3;
+
+}
+
+.mag4{
+
+order:4;
+
+}
+
+}
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+
+<header>Header</header>
+
+<article class="mag2">
+<h2>Article of the Century</h2>
+<p>Busta move and his fuji mixers are hell bent on taking OVER! This is not a remix, it is a promise. I was 16 when I had my first panic attack. 
+I thought I was going to die. I was drenched in sweat within seconds, I had pins and needles everywhere, my chest was tight,and my left arm was tingling 
+in a way that convinced me I was having a heart attack.These panic attacks would take hold of my life — I was having as many as ten a day. 
+I developed an eating disorder and was unable to leave my house for months at a time.</p>
+
+<p>My family and friends disagreed and told me that traveling would be a huge mistake. They didn’t think I was strong enough to deal with unfamiliar situations 
+and were convinced I would be home within a week. In a way, their lack of faith in me spurred me on. I wanted to prove that I wasn’t as weak as they thought I was.
+By the time I left, my anxiety had improved, but I was still suffering from panic attacks anywhere from once a month to several times a day. In the four years I’ve 
+been on the road, though, I can count the number of attacks I’ve had on two hands. 
+Despite what everyone told me, travel can actually help you overcome your anxiety.</p>
+
+
+</article>
+
+<aside class="mag1">Aside 1</aside>
+<aside class="mag3">Aside 2</aside>
+<footer class="mag4">Footer</footer>
+
+</body>
+
+
+
+</html>

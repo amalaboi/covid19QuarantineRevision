@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Semantic</title>
+
+<style>
+
+body{
+margin:0;
+
+}
+
+header,section,article,aside,footer{
+background-color:grey;
+color:white;
+font-size:20px;
+text-align:center;
+border:1px solid black;
+
+
+}
+
+header{
+width:700px;
+height:100px;
+margin-bottom:10px;
+
+}
+
+section{
+width:350px;
+height:200px;
+
+}
+
+aside{
+float:right;
+width:340px;
+height:200px;
+margin-bottom:10px;
+
+
+}
+
+article{
+
+margin:70px;
+width:200px
+}
+
+footer{
+margin-top:10px;
+}
+
+#container{
+width:700px;
+
+margin:20px auto;
+}
+
+.flo{
+
+float:left;
+
+}
+
+.clo{
+clear:both;
+
+}
+
+
+</style>
+</head>
+
+
+<body>
+
+<div id="container">
+
+<header>
+ <p>header</p>
+</header>
+
+<section class="flo" >
+<p>section</p>
+
+	<article>
+		<p>article</p>
+	</article>
+
+</section>
+
+<aside>
+<p>aside</p>
+</aside>
+
+<footer class="clo">
+<p>footer</p>
+</footer>
+
+</div>
+</body>
+
+
+
+</html>

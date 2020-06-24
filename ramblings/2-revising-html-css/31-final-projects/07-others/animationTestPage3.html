@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Image Slider</title>
+
+
+<style>
+
+html,body,h1{
+
+margin:0;
+padding:0;
+border:0;
+
+}
+
+
+.container{
+
+width:100%;
+position:relative;
+overflow-x:hidden;
+
+
+}
+
+
+.slider{
+
+position:relative;
+width:500%;/* 500% because it contains five separate slides. Number of % = Number of slides*/
+animation:animate 20s linear infinite;
+
+
+}
+
+
+.slide{
+
+position:relative;
+width:20%;
+float:left;
+height:100vh;
+
+
+}
+
+.slide{
+
+background-position:center center;
+background-size:cover;
+
+
+}
+
+h1{
+
+
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+text-align:center;
+font-size:6rem;
+width:100%;
+background-color:rgba(0,0,0,0.6);
+color:#fff;
+
+
+}
+
+
+.slide:nth-child(1){
+background-image:url("images/pexels-photo-57565.jpeg");
+
+}
+
+.slide:nth-child(2){
+background-image:url("images/cube-six-gambling-play-37524.jpeg");
+
+}
+
+
+.slide:nth-child(3){
+background-image:url("images/pexels-photo-207496.jpeg");
+
+}
+
+.slide:nth-child(4){
+background-image:url("images/pexels-photo-277319.jpeg");
+
+}
+
+.slide:nth-child(5){
+background-image:url("images/pexels-photo-669319.jpeg");
+
+}
+
+
+
+@keyframes animate{
+
+	0%{
+
+	 left:0;
+	}
+
+	16%{
+
+	 left:0;
+	}
+
+	20%{
+
+	 left:-100%;
+	}
+
+	36%{
+
+	 left:-100%;
+	}
+
+	40%{
+
+	 left:-200%;
+	}
+
+	56%{
+
+	 left:-200%;
+	}
+
+
+	60%{
+
+	 left:-300%;
+	}
+
+	76%{
+
+	 left:-300%;
+	}
+
+	80%{
+
+	 left:-400%;
+	}
+
+	96%{
+
+	 left:-400%;
+	}
+
+	100%{
+
+	 left:0;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+    <div class="slider">
+
+	<div class="slide">
+		<h1>Slide 1</h1>
+	
+	</div>    
+
+	<div class="slide">
+		<h1>Slide 2</h1>
+	
+	</div>
+
+	<div class="slide">
+		<h1>Slide 3</h1>
+	
+	</div>
+
+	<div class="slide">
+		<h1>Slide 4</h1>
+	
+	</div>
+
+	<div class="slide">
+		<h1>Slide 5</h1>
+	
+	</div>
+
+
+
+   </div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</body>
+
+
+
+</html>

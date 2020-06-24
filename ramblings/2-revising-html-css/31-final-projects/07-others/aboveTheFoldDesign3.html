@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Above the Fold Design Pattern2</title>
+
+
+<style>
+
+html,body,#atf,#gallery{
+
+padding:0;
+margin:0;
+border:0;
+box-sizing:border-box;
+
+
+}
+
+
+#atf{
+
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+
+background-image:url("../R Drive/lion-safari-afika-landscape-40756.jpeg");
+background-size:cover;
+background-repeat:no-repeat;
+    
+
+
+
+}
+
+
+p{
+
+font-size:4rem;
+
+}
+
+
+
+
+/*GALLERY SECTION*/
+
+
+#gallery{
+
+display:flex;
+flex-flow:row wrap;
+width:100%;
+color:white;
+
+
+}
+
+
+
+.c1,.c2,.c3,.c4,.c5,.c6,.c7{
+
+width:100%;
+min-height:200px;
+
+
+box-sizing:border-box;
+
+}
+
+
+
+
+.c1 {
+    background-color: #003476;
+    background-image:url("../R Drive/pic1.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+}
+
+.c2 {
+    background-color: #0062d2;
+    background-image:url("../R Drive/pic2.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.c3 {
+    background-color: #b4d2f7;
+    background-image:url("../R Drive/pic3.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.c4 {
+    background-color: #d5dfef;
+    background-image:url("../R Drive/pic4.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.c5 {
+    background-color: #dfe1e5;
+    background-image:url("../R Drive/pic5.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.c6 {
+    background-color: #d47fea;
+    background-image:url("../R Drive/pic6.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.c7 {
+    background-color: #dfe1a1;
+    background-image:url("../R Drive/pic7.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+
+
+@media (min-width:200px){
+
+
+#atf{
+
+background-image:url("../R Drive/pic4.jpeg");
+background-size:cover;
+background-repeat:no-repeat;
+    
+
+
+
+}
+
+.c1{
+width:100%;
+
+}
+
+.c2,.c3{
+
+width:50%;
+box-sizing:border-box;
+}
+
+.c4,.c5,.c6{
+
+width:33.3333%;
+box-sizing:border-box;
+}
+
+
+
+
+}
+
+
+
+@media(min-width:900px){
+
+
+#atf{
+
+
+background-image:url("../R Drive/lion-safari-afika-landscape-40756.jpeg");
+background-size:cover;
+background-repeat:no-repeat;
+    
+
+
+
+}
+
+
+.c1{
+width:100%;
+
+}
+
+.c2,.c3,.c4{
+
+
+width:33.3333%;
+box-sizing:border-box;
+}
+
+.c5,.c6{
+
+width:50%;
+box-sizing:border-box;
+}
+
+
+.c1,.c5,.c6,.c7{
+
+
+min-height:500px;
+
+
+box-sizing:border-box;
+
+}
+
+
+
+}
+
+
+html{
+color:whitesmoke;
+
+}
+
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+
+<div id="atf">
+
+<p>FIND YOUR PARADISE</p>
+
+
+</div>
+
+
+
+
+
+<div id="gallery">
+
+<div class="c1">One</div>
+<div class="c2">Two</div>
+<div class="c3">Three</div>
+<div class="c4">Four</div>
+<div class="c5">Five</div>
+<div class="c6">Six</div>
+<div class="c7">Seven</div>
+
+</div>
+
+</body>
+
+
+
+</html>
